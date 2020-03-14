@@ -234,3 +234,9 @@ footer div {
     width: 800px;
   }
 }
+
+@media screen and (min-width: 1415px) {
+  .quick-intro__header {
+    margin-left: 1em;
+  }
+}
