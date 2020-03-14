@@ -239,4 +239,12 @@ footer div {
   .quick-intro__header {
     margin-left: 1em;
   }
+
+  .quick-intro {
+    margin-top: -12em;
+  }
+
+  article {
+    width: 1000px;
+  }
 }
