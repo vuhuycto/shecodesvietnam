@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai&display=swap');
+
+body {
+  margin: 0 0 0 0;
+  font-family: 'Open Sans';
+}
+
+header {
+  position: fixed;
+  top: 0em;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: rgb(33, 24, 55);
+}
+
+nav {
+  float: right;
+  margin-right: 0.5em;
+}
+
+.menu-icon {
+  margin-top: 0.5em;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0 1rem 0 0;
+  z-index: 1000;
+}
+
+.menu-icon__bar {
+  width: 30px;
+  height: 5px;
+  background-color: rgb(195, 190, 208);
+  margin: 6px 0;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  margin-top: 2.5em;
+  margin-left: -18em;
+  list-style-type: none;
+  background-color: rgb(33, 24, 55);
+  width: 100%;
+  height: 100vh;
+  padding: 1em 0 1em 1.5em;
+}
+
+.menu .menu__item {
+  margin-bottom: 0.7rem;
+}
+
+.menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(195, 190, 208);
+}
+
+.menu a[href="#"] {
+  color: #ffffff;
+  border-bottom: 0.3em solid #ffffff;
+}
+
+picture, img {
+  max-width: 100%;
+}
+
+main {
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Arima Madurai';
+  font-weight: lighter;
+  line-height: 1.2em;
+  font-size: 2.5rem;
+}
+
+.quick-intro__header {
+  position: absolute;
+  margin-left: 0.4em;
+  margin-top: -2em;
+  background-color: #451B73;
+  color: #ffffff;
+  width: 80%;
+  padding: 0.1em 0 0 0.2em;
+  z-index: -1;
+}
+
+.quick-intro__image {
+  position: relative;
+  z-index: -2;
+}
+
+article {
+  padding: 2em 0em 1em 0em;
+  border-bottom: 1px solid #6A6A6A;
+  width: 85%;
+  margin: 0px auto;
+}
+
+article h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #451B73;
+}
+
+article:last-child {
+  border-bottom: none;
+}
+
+footer {
+  background-color: rgb(33, 24, 55);
+  text-align: center;
+  padding: 1.2em 0 1em 0;
+  color: rgb(195, 190, 208);
+  margin-top: 2em;
+}
+
+footer h1 {
+  font-size: 1.5rem;
+}
+
+footer p {
+  font-size: 0.5em;
+}
+
+footer div {
+  word-spacing: 0.5em;
+}
+
+@media screen and (max-width: 240px) {
+  .quick-intro__header {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .quick-intro__header {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 610px) {
+  .quick-intro__header {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 690px) {
+  .quick-intro__header {
+    width: 38%;
+    font-size: 5rem;
+    margin-top: -5.5em;
+    margin-left: 5.5em;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .menu {
+    font-size: 0.7rem;
+  }
+
+  main {
+    width: 720px;
+    margin: 0 auto 0 auto;
+  }
+
+  article {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
+
+  article p {
+    grid-column: 2;
+  }
+
+  .menu-icon {
+    clear: right;
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    position: static;
+    float: right;
+    height: 100%;
+    margin-left: 0em;
+    margin-top: 0em;
+  }
+
+  .menu__item {
+    display: inline;
+    margin-right: 1em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .menu {
+    font-size: 1rem;
+  }
+
+  main {
+    width: 900px;
+    margin: 0 auto 0 auto;
+  }
+}

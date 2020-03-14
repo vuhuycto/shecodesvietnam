@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+blockquote {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  border: 3px solid #ECE4F4;
+}
+
+blockquote p {
+  padding: 0 10px 0 10px;
+  font-size: 1.5rem;
+}
+
+.quotes {
+  font-weight: bold;
+}
+
+blockquote footer {
+  margin-top: 0em;
+  background-color: white;
+  color: black;
+}

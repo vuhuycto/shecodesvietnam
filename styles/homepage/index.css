@@ -1,0 +1,63 @@
+.event {
+  display: none;
+  height: 14em;
+}
+
+.event * {
+  display: block;
+  margin: 0 auto 0 auto;
+  max-width: 100%;
+  width: 500px;
+}
+
+.event h3 {
+  margin-top: 0.5em;
+}
+
+.active {
+  display: block;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 0em;
+}
+
+.button-container button {
+  background-color: #ffffff;
+  outline: none;
+  border: none;
+  color: #6A6A6A;
+}
+
+@media screen and (max-width: 240px) {
+  .button-container {
+    margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .event img {
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 401px) {
+  .event img {
+    height: 200px;
+  }
+
+  .button-container {
+    padding-top: 2.5em;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .event img {
+    height: 250px;
+  }
+
+  .button-container button {
+    margin-top: 3em;
+  }
+}
