@@ -4,16 +4,24 @@ const menuBtn = document.querySelector('.menu-icon');
 const barsOfMenuBtn = document.querySelectorAll('.menu-icon__bar');
 const menuDetails = document.querySelector('nav ul');
 
-menuBtn.addEventListener('click', function() {
-  if (toggle) {
-    menuDetails.style.display = 'none';
-    barsOfMenuBtn[0].style.display = 'block';
-    barsOfMenuBtn[2].style.display = 'block';
+function displayMenuBtn(detailsDisplay, barsDisplay) {
+  if (detailsDisplay === 'none') {
     toggle = false;
   } else {
-    menuDetails.style.display = 'block';
-    barsOfMenuBtn[0].style.display = 'none';
-    barsOfMenuBtn[2].style.display = 'none';
     toggle = true;
   }
-});
+
+  menuDetails.style.display = detailsDisplay;
+  barsOfMenuBtn[0].style.display = barsDisplay;
+  barsOfMenuBtn[2].style.display = barsDisplay;
+}
+
+function onToggleMenu() {
+  if (toggle) {
+    displayMenuBtn('none', 'block');
+  } else {
+    displayMenuBtn('block', 'none');
+  }
+}
+
+menuBtn.addEventListener('click', onToggleMenu);

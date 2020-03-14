@@ -12,6 +12,7 @@ header {
   width: 100%;
   padding: 0.5rem;
   background-color: rgb(33, 24, 55);
+  z-index: 1000;
 }
 
 nav {
@@ -106,7 +107,7 @@ h1 {
   margin: 1.5em 0em 0em 1em;
 }
 
-.focus {
+.breadcrumb__focus {
   color: #451B73;
 }
 
