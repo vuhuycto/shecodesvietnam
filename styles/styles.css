@@ -99,6 +99,17 @@ h1 {
   z-index: -2;
 }
 
+.breadcrumb {
+  font-weight: bold;
+  color: #6A6A6A;
+  text-align: left;
+  margin: 1.5em 0em 0em 1em;
+}
+
+.focus {
+  color: #451B73;
+}
+
 article {
   padding: 2em 0em 1em 0em;
   border-bottom: 1px solid #6A6A6A;
@@ -146,6 +157,10 @@ footer div {
   .quick-intro__header {
     font-size: 3rem;
   }
+
+  .breadcrumb {
+    margin-left: 1.25em;
+  }
 }
 
 @media screen and (min-width: 400px) {
@@ -167,6 +182,10 @@ footer div {
 @media screen and (min-width: 610px) {
   .quick-intro__header {
     font-size: 4rem;
+  }
+
+  .breadcrumb {
+    margin: 2em 0em 0em 1.6em;
   }
 }
 
@@ -222,6 +241,10 @@ footer div {
     width: 700px;
   }
 
+  .breadcrumb {
+    margin: 3em 0em 0em 2.4em;
+  }
+
   .quick-intro {
     margin-bottom: 2em;
   }
@@ -238,6 +261,10 @@ footer div {
 @media screen and (min-width: 1415px) {
   .quick-intro__header {
     margin-left: 1em;
+  }
+
+  .breadcrumb {
+    margin-left: 6em;
   }
 
   .quick-intro {
