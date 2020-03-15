@@ -7,7 +7,7 @@ let currentLocation = document.querySelector('.location-tab__active').textConten
 const panels = document.querySelectorAll('.panels__item');
 
 function onChangeTab(target, attr, activeAttr) {
-  if (target.getAttribute('class') === activeAttr) {
+  if (target.getAttribute('class') === activeAttr || target.tagName === 'UL') {
     return;
   }
   

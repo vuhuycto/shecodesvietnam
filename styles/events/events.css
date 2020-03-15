@@ -38,6 +38,11 @@
 
 .year-tab li:hover, .location-tab li:hover {
   cursor: pointer;
+  color: #451B73;
+}
+
+.year-tab li:focus, .location-tab li:focus, .event-btn:focus {
+  outline: none;
 }
 
 .year-tab__active, .location-tab__active {
@@ -50,15 +55,17 @@
 }
 
 .event-btn__location {
-  position: absolute;
-  text-align: left;
-  color: white;
-  margin-top: -2em;
-  margin-left: 0.5em;
+  color: black;
+  margin-top: 0em;
+}
+
+.event-btn__location:hover {
+  text-decoration: underline;
 }
 
 .event-btn {
   max-width: 100%;
+  margin-bottom: 2.5em;
 }
 
 .panels__item .event-btn {
