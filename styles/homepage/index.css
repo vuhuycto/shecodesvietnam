@@ -5,6 +5,7 @@ article{
 article:nth-child(3) {
   background-color: rgb(252, 248, 255);
   padding-bottom: 1em;
+  padding-top: 3em;
 }
 
 .about {
