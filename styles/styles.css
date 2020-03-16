@@ -143,6 +143,7 @@ article h2 {
   text-align: center;
   font-size: 2.5rem;
   color: #451B73;
+  margin: 0 1em 0.5em 1em;
 }
 
 article:last-child {
