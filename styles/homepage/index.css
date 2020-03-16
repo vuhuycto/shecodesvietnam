@@ -54,7 +54,8 @@ article:nth-child(3) {
 }
 
 .explore-btn:hover {
-  cursor: pointer;;
+  cursor: pointer;
+  box-shadow: none;
 }
 
 i {
