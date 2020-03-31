@@ -69,6 +69,10 @@
   margin: 0 auto;
 }
 
+.panels a {
+  color: black;
+}
+
 .panels__item .event-btn {
   display: none;
 }

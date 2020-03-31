@@ -38,26 +38,14 @@ article:nth-child(3) {
 }
 
 .explore-btn {
-  display: block;
-  margin: 20px auto;
-  font-size: 1.5rem;
-  outline: none;
-  border: none;
   background-color: #451B73;
   box-shadow: -2px 1px 10px #451B73;
   border-top: 3px solid #451B73;
-  padding: 20px;
-  border-radius: 10px;
-
-}
-
-.explore-btn {
   color: white;
 }
 
-.explore-btn:hover {
-  cursor: pointer;
-  box-shadow: none;
+.explore-btn:active {
+  border: 5px solid rgb(130, 82, 180);
 }
 
 i {
