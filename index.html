@@ -551,11 +551,21 @@
           mentorForm['name'].value 
             = mentorForm['email'].value = '';
 
-          mentorForm['location'].checked
-            = mentorForm['communication'].checked 
-            = mentorForm['presentation'].checked
-            = mentorForm['collaboration'].checked
-            = false;
+          mentorForm['location'].forEach(function(input) {
+            input.checked = false;
+          });
+
+          mentorForm['communication'].forEach(function(input) {
+            input.checked = false;
+          }); 
+
+          mentorForm['presentation'].forEach(function(input) {
+            input.checked = false;
+          });
+
+          mentorForm['collaboration'].forEach(function(input) {
+            input.checked = false;
+          });
 
           mentorForm['responsibility'].value = '';
 
