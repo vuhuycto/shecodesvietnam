@@ -86,6 +86,11 @@ i {
 	padding: 3px;
 }
 
+.featured-events .event-container .event h3 {
+	font-size: 2rem;
+	line-height: 2.5rem;
+}
+
 @media screen and (max-width: 240px) {
 	.button-container {
 		margin-top: 1em;
